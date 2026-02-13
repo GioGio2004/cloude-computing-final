@@ -1,5 +1,5 @@
 "use client";
-
+export const runtime = 'edge';
 import { useMutation, useQuery } from "convex/react";
 import { useParams } from "next/navigation";
 import { useState } from "react";
